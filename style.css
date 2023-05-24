@@ -15,14 +15,15 @@ body {
 }
 
 .screen {
-    height: 50px;
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
     border: 2px black solid;
     border-radius: 12px;
     background-color: pink;
     text-align: right;    
     font-size: 50px;
+    overflow-wrap: break-word;
+    inline-size: 300px;
 }
 
 .buttonGrid {
